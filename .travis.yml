@@ -1,0 +1,8 @@
+language: python
+
+script:
+  - echo 'test'
+
+notifications:
+  webhooks:
+    - http://5ec8970c.ngrok.io/
